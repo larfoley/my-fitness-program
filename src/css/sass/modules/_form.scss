@@ -1,0 +1,58 @@
+label {
+  padding: .3em 0;
+  display: inline-block;
+}
+
+input, textarea {
+  // background-color: $background-color;
+}
+input[type="text"], input[type="number"], textarea {
+  width: 100%;
+}
+
+input[type="text"], input[type="number"], textarea {
+  padding: .4em .5em;
+  border-radius: 5px;
+  outline: none;
+  color: $text-color;
+  border: 3px solid $background-color;
+
+  &:focus {
+    background-color: white;
+  }
+}
+
+input.required {
+  border: 3px solid color('red');
+}
+
+input:focus, textarea:focus {
+  border: 3px solid $primary-color;
+}
+
+textarea {
+  height: 100px;
+}
+
+select {
+  color: $text-color;
+  padding: .5em;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  &:focus {
+    outline-color: $primary-color;
+    // outline-width: thick;
+  }
+}
+
+select:hover, option:hover {
+  cursor: pointer;
+}
+
+th {
+  vertical-align: top;
+}
+
+.form-field {
+  margin-bottom: 1em;
+}

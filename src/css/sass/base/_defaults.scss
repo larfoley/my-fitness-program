@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+  background-color: $background-color;
+  font-family: $font-stack;
+  font-size: $font-size;
+  color: $text-color;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+p {
+  line-height: $line-height;
+}
+
+img, iframe {
+  max-width: 100%;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+table {
+  text-align: left;
+}
+
+th {
+  padding: .3em .7em .3em 0;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+h1, h2 {
+  text-transform: capitalize;
+}
+
+
+.browserupgrade, .noscript {
+  padding: 1em;
+  text-align: center;
+  background: #E74C3C;
+  color: white;
+  margin-bottom: 1em;
+}

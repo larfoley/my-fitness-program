@@ -1,0 +1,28 @@
+.EditExcercises {
+  background-color: lighten($background-color, 5%);
+  color: white;
+  > header {
+    padding: 2em;
+  }
+  margin-bottom: 2em;
+}
+
+.EditExcercise {
+  // @extend .box-item;
+  border-bottom: 1px solid $background-color;
+
+  padding: 2em;
+  &:first-child {
+    border-top: 1px solid $background-color;
+  }
+
+  .delete {
+    &:hover {
+      cursor: pointer;
+      color: color('red');
+    }
+  }
+  table {
+    width: 100%;
+  }
+}

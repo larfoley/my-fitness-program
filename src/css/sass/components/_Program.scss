@@ -1,0 +1,52 @@
+.Program {
+  &-header {
+    @extend .u-clearfix;
+    margin-bottom: $margin;
+    select {
+      float: left;
+      padding: 1em;
+      background-color: $primary-color;
+      color: white;
+    }
+    option {
+      background-color: white;
+      color: black;
+      &:focus {
+        outline: none;
+        border: none;
+      }
+    }
+    .DayComplete {
+      padding: 1em;
+      border-radius: 4px;
+      border: 1px solid lighten($background-color, 5%);
+      // color: white;
+      float: right;
+      // background-color: ;
+      color: white;
+
+      input[type="checkbox"] {
+        visibility: hidden;
+        position: fixed;
+      }
+
+      &.isComplete{
+        border-color: color('green');
+        background: color('green');
+        color: white;
+      }
+      &.isNotComplete{
+        background-color: $primary-color;
+        color: white;
+      }
+    }
+  }
+}
+
+.Workout {
+  margin-bottom: 3em;
+}
+
+.History {
+  margin-bottom: 2em;
+}

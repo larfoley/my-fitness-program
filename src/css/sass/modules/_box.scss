@@ -1,0 +1,28 @@
+.bod-shadow {
+}
+
+.box {
+  // box-shadow: 1px 1px 4px #ccc;
+  // border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2em;
+  background-color: lighten($background-color, 5%);
+  color: white;
+  margin-bottom: 2em;
+}
+
+.box-item {
+  padding: 1em 2em;
+  border: 1px solid $background-color;
+  border-bottom: none;
+  background-color: lighten($background-color, 5%);
+  color: white;
+  &:first-child {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  &:last-child {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  };
+}

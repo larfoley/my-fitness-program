@@ -1,0 +1,39 @@
+// Font Styles
+//------------------------------------------------------------------------------
+
+$font-size: 16px;
+$font-stack: "Nunito", "Helvetica Neue", "Helvetica", "Tahoma", "Verdana", sans-serif;
+$line-height: 1.5;
+
+// Container
+//------------------------------------------------------------------------------
+
+$container-max-width: 90%;
+$container-width: 1100px;
+
+// Spacing
+//------------------------------------------------------------------------------
+
+$padding: 2em;
+$margin: 2em;
+
+// Color Variables
+//------------------------------------------------------------------------------
+
+$primary-color: darken(#00BCD4, 5%);
+$background-color: #252839;
+$headings-color: white;
+$text-color: gray;
+$primary-btn-color: $primary-color;
+
+
+// Media Queries
+//------------------------------------------------------------------------------
+$mq-small: "screen and (min-width: 350px)";
+$mq-medium: "screen and (min-width: 700px)";
+$mq-large: "screen and (min-width: 1000px)";
+$mq: $mq-medium;
+// Usage:
+// @media #{$mq-small} {
+//
+// }

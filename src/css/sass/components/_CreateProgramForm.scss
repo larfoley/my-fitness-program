@@ -1,0 +1,16 @@
+.CreateProgramForm {
+  padding: $padding - 1;
+  margin: $margin * 2 auto;
+  max-width: 650px;
+  background-color: lighten($background-color, 5%);
+  border-radius: 5px;
+  color: white;
+  // box-shadow: 0 0 2px 1px #f5f5f5;
+  input {
+    // width: 100%;
+  }
+  &-header {
+    text-align: center;
+    padding: 1.5em;
+  }
+}

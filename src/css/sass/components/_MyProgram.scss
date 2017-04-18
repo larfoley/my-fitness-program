@@ -1,0 +1,31 @@
+.MyProgram {
+
+  &-header {
+    padding: 3em 0;
+    text-align: center;
+    // background-color: lighten($background-color, 5%);
+    h1, h2 {
+      margin: 0;
+    }
+  }
+
+  &-nav {
+    background-color: $primary-color;
+    margin-bottom: 2em;
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 1em;
+      width: 33.3333%;
+      text-align: center;
+      display: inline-block;
+      &.selected {
+        // background-color: white;
+        // color: $primary-color
+      }
+    }
+    .selected {
+      border-bottom: 3px solid white;
+    }
+  }
+}
